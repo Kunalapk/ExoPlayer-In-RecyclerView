@@ -102,6 +102,7 @@ class MainActivity : AppCompatActivity() {
                     currentPosition = diff
                 }*/
 
+                
                 var currentPosition = (rvVideo.layoutManager as LinearLayoutManager).findFirstCompletelyVisibleItemPosition()
                 if(currentPosition==-1){
                     currentPosition = (rvVideo.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
